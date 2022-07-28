@@ -1,9 +1,20 @@
-export default function Navbar() {
+import React from 'react'
+
+const Navbar = () => {
+const logoImg = "https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png"
+
     return (
-        <div>
             <nav>
-                <p>Pokeapi</p>
+                <div>
+                    <img 
+                    alt="Logo"
+                    src={logoImg}
+                    className='navbar-img'
+                   />
+                </div>
             </nav>
-        </div>
+
     )
 }
+
+export default Navbar;
