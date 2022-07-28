@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Searchbar = () => {
-    let search = "charizard"
+    const [search, setSearch] = useState("valor")
    const onChangeHandler = (e) => {
     console.log(`pokemon ${e.target.value}`);
-    search = e.target.value
+    setSearch(e.target.value)
    }
 
     return(
