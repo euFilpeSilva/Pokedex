@@ -6,9 +6,11 @@ import Searchbar from './components/Searchbar';
 
 const App =() => {
   return (
-    <div className='App'>
+    <div>
         <Navbar/>
         <Searchbar/>
+      <div className='App'>
+      </div>
     </div>
   )
 }
