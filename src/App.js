@@ -5,10 +5,11 @@ import Searchbar from './components/Searchbar';
 
 
 const App =() => {
+  
   return (
     <div>
         <Navbar/>
-        <Searchbar/>
+        <Searchbar />
       <div className='App'>
       </div>
     </div>
