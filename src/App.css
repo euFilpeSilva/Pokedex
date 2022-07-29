@@ -112,3 +112,19 @@ nav {
     margin-right: 10px;
     text-transform: captalize;
 }
+
+.pagination-container {
+    display: flex;
+    gap: 4px;
+    border: none;
+    background: white;
+   
+}
+
+.paination-container-left {
+  border: none;
+  background: transparent no-repeat; 
+}
+.paination-container-right {
+
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Heart } from 'phosphor-react';
 
 const Pokemon = (props) => {
     const {pokemon} = props
@@ -6,7 +7,7 @@ const Pokemon = (props) => {
         console.log('Pode favoritar...');
     }
 
-    const Heart = "❤️";
+    // const Heart = ;
 
     console.log("pokemon", pokemon);
     return(
@@ -28,7 +29,7 @@ const Pokemon = (props) => {
                              })}
                         </div>
                         <button className='pokemon-heart-btn' onClick={onHeartClick}>
-                            {Heart}
+                            {<Heart size={15} color="#ffffff" weight="fill" />}
                         </button>
                     </div>
                 </div>

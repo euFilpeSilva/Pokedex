@@ -7,14 +7,14 @@ const Pagination =(props) => {
     return(
         <div className='pagination-container'>
             <button onClick={onLeftClick}>
-                <div>
-                    <ArrowCircleLeft size={20} color="#ffffff" weight="fill" />
+                <div >
+                    <ArrowCircleLeft className='paination-container-left' size={20} color="black" weight="fill" />
                 </div>
             </button>
                 <div>{page} de {totalPages}</div>
             <button onClick={onRightClick}>
                 <div>
-            <       ArrowCircleRight size={20} color="#ffffff" weight="fill" />
+                    <ArrowCircleRight className='paination-container-right' size={20} color="black" weight="fill" />
                 </div>
             </button>
         </div>
