@@ -23,8 +23,7 @@ const Searchbar = (props) => {
            </div> 
            <div >
                 <button className='search-btn' onClick={ onButtonClickHandler }> Buscar </button>
-           </div>
-         
+           </div>    
        </div>
     )
 }
